@@ -15,3 +15,7 @@ now u should be ready to run the actual script:
 
 once it says its ready u can press F1 and itll automatically click on the Shake button
 press CTRL+C to stop it
+
+
+oh also um you might wanna install CUDA and pytorch(cuda version) if u have an NVIDIA GPU it makes stuff faster:
+    https://pytorch.org/get-started/locally/

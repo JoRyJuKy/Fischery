@@ -2,7 +2,7 @@ import numpy as np
 import pyautogui as pg
 import easyocr, keyboard, mouse, cv2, time
 
-reader = easyocr.Reader(["en"], gpu=True)
+reader = easyocr.Reader(["en"])
 
 def find_shake_rect(img, resize_factor = 0.2):
     gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
